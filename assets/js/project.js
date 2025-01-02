@@ -13,13 +13,21 @@ const projects = [
     Previewlink: "https://brainjet-quizportal-gehuhld.netlify.app/",
     Githublink: "https://github.com/GariBisht/BRAINJET-QUIZ-PORTAL",
   },
+  // {
+  //   title: "Life Moments",
+  //   cardImage: "assets/images/project-page/life.png",
+  //   description: "",
+  //   tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+  //   Previewlink: "",
+  //   //Githublink: "https://github.com/GariBisht/Bakery-Website",
+  // },
   {
     title: "Bakery Website",
     cardImage: "assets/images/project-page/bakery.png",
     description: "A Simple Bakery Website using HTML and CSS.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
-    Githublink: "https://github.com/GariBisht/Bakery-Website",
+    //Githublink: "https://github.com/GariBisht/Bakery-Website",
   },
   
 ];

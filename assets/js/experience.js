@@ -5,6 +5,22 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
+  
+  {
+    title: "WESEE Ministry of Defence",
+    cardImage: "assets/images/experience-page/wesee.jpg",
+    place: "Software Engineer",
+    time: "(1 July, 2023 - 30 June , 2024)",
+    desp: "Worked on Indian Navy projects, including the development of the Samuha website, the Tasking Portal, NavConsole UI interfaces, Radar UI, and Weapons UI. Played a key role in building the Samuha website and Tasking Portal, ensuring effective user interfaces for task management and operational coordination. Designed and implemented the Weapons UI to manage and control defense systems effectively. Utilized Angular for dynamic front-end development, TailwindCSS for responsive and customizable UI design, and Laravel for robust back-end services. Focused on delivering intuitive, user-friendly interfaces while ensuring efficient system performance tailored to the specific needs of naval operations.  ",
+  },
+  
+  {
+    title: "Source Soft Solutions Pvt. Ltd.",
+    cardImage: "assets/images/experience-page/source.jpg",
+    place: "Software Developer",
+    time: "(June, 2022 - Feb, 2023)",
+    desp: "Worked with Source Soft Solutions Pvt. Ltd., where I contributed to diverse projects, including store management systems, email clients, online shopping portals, and nft websites. Developed single-page websites and React-based web applications, using React and Redux for efficient state management, Material-UI and Bootstrap for responsive and modern designs, and integrated Metamask for blockchain functionality.Focused on delivering scalable, user-friendly, and efficient solutions. ",
+  },
   {
     title: "LGM LetsGrowMore",
     cardImage: "assets/images/experience-page/lgm.jpeg",
@@ -54,7 +70,8 @@ const showCards3 = () => {
       (output += `  
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
-            <img src="${image}" alt="">
+            <img src="${image}" style="width: 100% !important; height: 100% !important; object-fit: cover !important;">
+
         </div>
         <div class="blog-slider__content">
           <div class="blog-slider__title">${title}</div>
